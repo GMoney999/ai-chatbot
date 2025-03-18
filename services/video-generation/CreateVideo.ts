@@ -36,7 +36,7 @@ const VoiceConfig = async (): Promise<TextVoiceSettings> => {
     type: "text", //static
     voice_id: voice_id[0],
     input_text: content,
-    emotion: "excited",
+    emotion: "Excited"
   }
 
   return voice_config;
@@ -58,6 +58,8 @@ const CreateScene = async (): Promise<Scene> => {
 }
 const buildRequest = async (): Promise<RequestBody> => {
   const scene = await CreateScene();
+  console.log("Scene: ", scene);
+
   const request_body: RequestBody = {
     video_inputs: [
       scene
@@ -73,9 +75,9 @@ async function generateVideo(requestBody: RequestBody): Promise<string> {
   try {
     const response = await axios.post('https://api.heygen.com/v2/video/generate', requestBody, {
       headers: {
-        'X-Api-Key': process.env.HEYGEN_API_KEY || '',
         'accept': 'application/json',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'X-Api-Key': process.env.HEYGEN_API_KEY || '',
       }
     });
     const res: HeyGenResponse = response.data.data;
@@ -84,7 +86,7 @@ async function generateVideo(requestBody: RequestBody): Promise<string> {
   } catch (error) {
     console.error("Error generating video")
 
-    return "";
+    return "ERROR";
   }
 }
 
@@ -92,7 +94,11 @@ async function generateVideo(requestBody: RequestBody): Promise<string> {
 export async function createVideo() {
   const request = await buildRequest();
   const video_url = await generateVideo(request);
-  console.log("Generated Video ID: ", video_url);
+
+  if (video_url === "ERROR") {
+    return;
+  }
+
   startStatusPolling(video_url);
 
   return;

@@ -42,6 +42,7 @@ const VoiceConfig = () => __awaiter(void 0, void 0, void 0, function* () {
         type: "text", //static
         voice_id: voice_id[0],
         input_text: content,
+        emotion: "Excited"
     };
     return voice_config;
 });
@@ -58,6 +59,7 @@ const CreateScene = () => __awaiter(void 0, void 0, void 0, function* () {
 });
 const buildRequest = () => __awaiter(void 0, void 0, void 0, function* () {
     const scene = yield CreateScene();
+    console.log("Scene: ", scene);
     const request_body = {
         video_inputs: [
             scene
@@ -71,18 +73,17 @@ function generateVideo(requestBody) {
         try {
             const response = yield axios_1.default.post('https://api.heygen.com/v2/video/generate', requestBody, {
                 headers: {
-                    'X-Api-Key': process.env.HEYGEN_API_KEY || '',
                     'accept': 'application/json',
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'X-Api-Key': process.env.HEYGEN_API_KEY || '',
                 }
             });
             const res = response.data.data;
-            console.log("HeyGen response: ", res);
             return res.video_id;
         }
         catch (error) {
             console.error("Error generating video");
-            return "";
+            return "ERROR";
         }
     });
 }
@@ -90,7 +91,9 @@ function createVideo() {
     return __awaiter(this, void 0, void 0, function* () {
         const request = yield buildRequest();
         const video_url = yield generateVideo(request);
-        console.log("Generated URL: ", video_url);
+        if (video_url === "ERROR") {
+            return;
+        }
         (0, utils_1.startStatusPolling)(video_url);
         return;
     });

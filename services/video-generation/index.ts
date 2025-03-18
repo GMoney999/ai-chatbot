@@ -1,6 +1,5 @@
 import express, { Request, Response } from "express";
 import { createVideo } from "./CreateVideo";
-import { getVideoList } from "./VideoManager";
 import dotenv from "dotenv";
 
 dotenv.config();
