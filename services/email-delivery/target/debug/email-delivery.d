@@ -1,0 +1,1 @@
+/Users/geramisadeghi/dev/Iconomy/Prototypes/cameo-project/services/email-delivery/target/debug/email-delivery: /Users/geramisadeghi/dev/Iconomy/Prototypes/cameo-project/services/email-delivery/src/main.rs /Users/geramisadeghi/dev/Iconomy/Prototypes/cameo-project/services/email-delivery/src/smtp_server.rs

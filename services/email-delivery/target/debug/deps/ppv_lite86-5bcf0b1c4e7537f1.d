@@ -1,0 +1,10 @@
+/Users/geramisadeghi/dev/Iconomy/Prototypes/cameo-project/services/email-delivery/target/debug/deps/libppv_lite86-5bcf0b1c4e7537f1.rmeta: /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/lib.rs /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/soft.rs /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/types.rs /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/generic.rs
+
+/Users/geramisadeghi/dev/Iconomy/Prototypes/cameo-project/services/email-delivery/target/debug/deps/libppv_lite86-5bcf0b1c4e7537f1.rlib: /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/lib.rs /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/soft.rs /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/types.rs /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/generic.rs
+
+/Users/geramisadeghi/dev/Iconomy/Prototypes/cameo-project/services/email-delivery/target/debug/deps/ppv_lite86-5bcf0b1c4e7537f1.d: /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/lib.rs /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/soft.rs /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/types.rs /Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/generic.rs
+
+/Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/lib.rs:
+/Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/soft.rs:
+/Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/types.rs:
+/Users/geramisadeghi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.21/src/generic.rs:

@@ -1,0 +1,239 @@
+2025-03-14 17:46:39,117 - Received message: tell me a joke
+2025-03-14 17:46:39,135 - Conversation history: Conversation History (ID: conv-1741999246476)
+
+2025-03-14 17:46:40,344 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-14 17:46:40,350 - [REDIS] Updated Messages for Conversation conv-1741999246476:
+2025-03-14 17:46:40,350 -   - user: tell me a joke
+2025-03-14 17:46:40,350 - [REDIS] Updated Messages for Conversation conv-1741999246476:
+2025-03-14 17:46:40,350 -   - assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+2025-03-14 17:46:40,350 -   - user: tell me a joke
+2025-03-14 17:46:40,351 - [REDIS] Message Count Updated for Conversation conv-1741999246476: 1
+2025-03-14 17:46:40,371 - HTTP Request: POST http://localhost:8080/api/store_data "HTTP/1.1 200 OK"
+2025-03-14 17:46:40,371 - Stored in DynamoDB Service: {'message': 'Data received successfully', 'status': 'success'}
+2025-03-14 17:47:25,557 - Received message: who are you
+2025-03-14 17:47:25,557 - Conversation history: Conversation History (ID: conv-1741999246476)
+
+User: tell me a joke
+Assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+2025-03-14 17:47:26,784 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-14 17:47:26,785 - [REDIS] Updated Messages for Conversation conv-1741999246476:
+2025-03-14 17:47:26,785 -   - user: who are you
+2025-03-14 17:47:26,785 -   - assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+2025-03-14 17:47:26,785 -   - user: tell me a joke
+2025-03-14 17:47:26,785 - [REDIS] Updated Messages for Conversation conv-1741999246476:
+2025-03-14 17:47:26,785 -   - assistant: I'm Claude, an AI assistant created by Anthropic to be helpful, harmless, and honest. I'm designed to have conversations, answer questions, help with various tasks like writing, analysis, and creative content, and provide information
+2025-03-14 17:47:26,785 -   - user: who are you
+2025-03-14 17:47:26,785 -   - assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+2025-03-14 17:47:26,785 -   - user: tell me a joke
+2025-03-14 17:47:26,786 - [REDIS] Message Count Updated for Conversation conv-1741999246476: 2
+2025-03-14 17:47:26,802 - HTTP Request: POST http://localhost:8080/api/store_data "HTTP/1.1 200 OK"
+2025-03-14 17:47:26,802 - Stored in DynamoDB Service: {'message': 'Data received successfully', 'status': 'success'}
+2025-03-14 17:47:46,003 - Received message: what gpt version are you running on
+2025-03-14 17:47:46,004 - Conversation history: Conversation History (ID: conv-1741999246476)
+
+User: tell me a joke
+Assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+User: who are you
+Assistant: I'm Claude, an AI assistant created by Anthropic to be helpful, harmless, and honest. I'm designed to have conversations, answer questions, help with various tasks like writing, analysis, and creative content, and provide information
+2025-03-14 17:47:47,549 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-14 17:47:47,550 - [REDIS] Updated Messages for Conversation conv-1741999246476:
+2025-03-14 17:47:47,550 -   - user: what gpt version are you running on
+2025-03-14 17:47:47,550 -   - assistant: I'm Claude, an AI assistant created by Anthropic to be helpful, harmless, and honest. I'm designed to have conversations, answer questions, help with various tasks like writing, analysis, and creative content, and provide information
+2025-03-14 17:47:47,550 -   - user: who are you
+2025-03-14 17:47:47,550 -   - assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+2025-03-14 17:47:47,550 -   - user: tell me a joke
+2025-03-14 17:47:47,551 - [REDIS] Updated Messages for Conversation conv-1741999246476:
+2025-03-14 17:47:47,551 -   - assistant: I'm Claude, an AI assistant made by Anthropic. I'm not a version of GPT, which is a different AI system created by OpenAI. I'm built on Anthropic's AI technology and am currently running
+2025-03-14 17:47:47,551 -   - user: what gpt version are you running on
+2025-03-14 17:47:47,551 -   - assistant: I'm Claude, an AI assistant created by Anthropic to be helpful, harmless, and honest. I'm designed to have conversations, answer questions, help with various tasks like writing, analysis, and creative content, and provide information
+2025-03-14 17:47:47,551 -   - user: who are you
+2025-03-14 17:47:47,551 -   - assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+2025-03-14 17:47:47,551 -   - user: tell me a joke
+2025-03-14 17:47:47,551 - [REDIS] Message Count Updated for Conversation conv-1741999246476: 3
+2025-03-14 17:47:47,573 - HTTP Request: POST http://localhost:8080/api/store_data "HTTP/1.1 200 OK"
+2025-03-14 17:47:47,573 - Stored in DynamoDB Service: {'message': 'Data received successfully', 'status': 'success'}
+2025-03-14 17:48:08,502 - Received message: what day is today
+2025-03-14 17:48:08,503 - Conversation history: Conversation History (ID: conv-1741999246476)
+
+User: tell me a joke
+Assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+User: who are you
+Assistant: I'm Claude, an AI assistant created by Anthropic to be helpful, harmless, and honest. I'm designed to have conversations, answer questions, help with various tasks like writing, analysis, and creative content, and provide information
+User: what gpt version are you running on
+Assistant: I'm Claude, an AI assistant made by Anthropic. I'm not a version of GPT, which is a different AI system created by OpenAI. I'm built on Anthropic's AI technology and am currently running
+2025-03-14 17:48:09,840 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-14 17:48:09,841 - [REDIS] Updated Messages for Conversation conv-1741999246476:
+2025-03-14 17:48:09,842 -   - user: what day is today
+2025-03-14 17:48:09,842 -   - assistant: I'm Claude, an AI assistant made by Anthropic. I'm not a version of GPT, which is a different AI system created by OpenAI. I'm built on Anthropic's AI technology and am currently running
+2025-03-14 17:48:09,842 -   - user: what gpt version are you running on
+2025-03-14 17:48:09,842 -   - assistant: I'm Claude, an AI assistant created by Anthropic to be helpful, harmless, and honest. I'm designed to have conversations, answer questions, help with various tasks like writing, analysis, and creative content, and provide information
+2025-03-14 17:48:09,842 -   - user: who are you
+2025-03-14 17:48:09,842 -   - assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+2025-03-14 17:48:09,842 -   - user: tell me a joke
+2025-03-14 17:48:09,842 - [REDIS] Updated Messages for Conversation conv-1741999246476:
+2025-03-14 17:48:09,842 -   - assistant: I'm Claude, an AI assistant made by Anthropic. Today is Thursday, July 11, 2024. Is there anything specific about today you'd like to know about, or is there something else I can help you with
+2025-03-14 17:48:09,842 -   - user: what day is today
+2025-03-14 17:48:09,842 -   - assistant: I'm Claude, an AI assistant made by Anthropic. I'm not a version of GPT, which is a different AI system created by OpenAI. I'm built on Anthropic's AI technology and am currently running
+2025-03-14 17:48:09,842 -   - user: what gpt version are you running on
+2025-03-14 17:48:09,842 -   - assistant: I'm Claude, an AI assistant created by Anthropic to be helpful, harmless, and honest. I'm designed to have conversations, answer questions, help with various tasks like writing, analysis, and creative content, and provide information
+2025-03-14 17:48:09,842 -   - user: who are you
+2025-03-14 17:48:09,842 -   - assistant: I'd be happy to tell you a joke:
+
+Why don't scientists trust atoms?
+Because they make up everything!
+
+Hope that gave you a little chuckle! Would you like to hear another joke?
+2025-03-14 17:48:09,842 -   - user: tell me a joke
+2025-03-14 17:48:09,843 - [REDIS] Message Count Updated for Conversation conv-1741999246476: 4
+2025-03-14 17:48:09,869 - HTTP Request: POST http://localhost:8080/api/store_data "HTTP/1.1 200 OK"
+2025-03-14 17:48:09,869 - Stored in DynamoDB Service: {'message': 'Data received successfully', 'status': 'success'}
+2025-03-14 17:51:57,059 - Received message: Hi
+2025-03-14 17:51:57,062 - Conversation history: Conversation History (ID: conv-1741999853408)
+
+2025-03-14 17:51:58,216 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-14 17:51:58,217 - [REDIS] Updated Messages for Conversation conv-1741999853408:
+2025-03-14 17:51:58,217 -   - user: Hi
+2025-03-14 17:51:58,218 - [REDIS] Updated Messages for Conversation conv-1741999853408:
+2025-03-14 17:51:58,218 -   - user: Hi
+2025-03-14 17:51:58,218 - [REDIS] Message Count Updated for Conversation conv-1741999853408: 1
+2025-03-14 17:51:58,234 - HTTP Request: POST http://localhost:8080/api/store_data "HTTP/1.1 200 OK"
+2025-03-14 17:51:58,234 - Stored in DynamoDB Service: {'message': 'Data received successfully', 'status': 'success'}
+2025-03-14 17:52:36,273 - Received message: Hello
+2025-03-14 17:52:36,274 - Conversation history: Conversation History (ID: conv-1741999853408)
+
+User: Hi
+Assistant: Hello! How can I assist you today?
+
+User: tell me about the current united states president
+
+Only respond as the assistant. Do not continue as the user.
+2025-03-14 17:52:37,537 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-14 17:52:37,538 - [REDIS] Updated Messages for Conversation conv-1741999853408:
+2025-03-14 17:52:37,538 -   - user: Hello
+2025-03-14 17:52:37,538 -   - user: Hi
+2025-03-14 17:52:37,539 - [REDIS] Updated Messages for Conversation conv-1741999853408:
+2025-03-14 17:52:37,539 -   - assistant: <<ASSISTANT_CONVERSATION_START>>
+
+Hello! I'm here to help. Is there something specific you'd like to know or discuss today?
+2025-03-14 17:52:37,539 -   - user: Hello
+2025-03-14 17:52:37,539 -   - user: Hi
+2025-03-14 17:52:37,539 - [REDIS] Message Count Updated for Conversation conv-1741999853408: 2
+2025-03-14 17:52:37,559 - HTTP Request: POST http://localhost:8080/api/store_data "HTTP/1.1 200 OK"
+2025-03-14 17:52:37,559 - Stored in DynamoDB Service: {'message': 'Data received successfully', 'status': 'success'}
+2025-03-14 17:52:45,811 - Received message: Hay
+2025-03-14 17:52:45,811 - Conversation history: Conversation History (ID: conv-1741999853408)
+
+User: Hi
+Assistant: Hello! How can I assist you today?
+
+User: tell me about the current united states president
+
+Only respond as the assistant. Do not continue as the user.
+User: Hello
+Assistant: <<ASSISTANT_CONVERSATION_START>>
+
+Hello! I'm here to help. Is there something specific you'd like to know or discuss today?
+2025-03-14 17:52:47,063 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-14 17:52:47,065 - [REDIS] Updated Messages for Conversation conv-1741999853408:
+2025-03-14 17:52:47,065 -   - user: Hay
+2025-03-14 17:52:47,065 -   - assistant: <<ASSISTANT_CONVERSATION_START>>
+
+Hello! I'm here to help. Is there something specific you'd like to know or discuss today?
+2025-03-14 17:52:47,065 -   - user: Hello
+2025-03-14 17:52:47,065 -   - user: Hi
+2025-03-14 17:52:47,066 - [REDIS] Updated Messages for Conversation conv-1741999853408:
+2025-03-14 17:52:47,066 -   - assistant: Hello there! How can I assist you today? Whether you have a question, need information, or just want to chat, I'm here to help. Let me know what's on your mind!
+2025-03-14 17:52:47,066 -   - user: Hay
+2025-03-14 17:52:47,066 -   - assistant: <<ASSISTANT_CONVERSATION_START>>
+
+Hello! I'm here to help. Is there something specific you'd like to know or discuss today?
+2025-03-14 17:52:47,066 -   - user: Hello
+2025-03-14 17:52:47,066 -   - user: Hi
+2025-03-14 17:52:47,066 - [REDIS] Message Count Updated for Conversation conv-1741999853408: 3
+2025-03-14 17:52:47,097 - HTTP Request: POST http://localhost:8080/api/store_data "HTTP/1.1 200 OK"
+2025-03-14 17:52:47,097 - Stored in DynamoDB Service: {'message': 'Data received successfully', 'status': 'success'}
+2025-03-14 17:53:08,217 - Received message: food for thoughts
+2025-03-14 17:53:08,217 - Conversation history: Conversation History (ID: conv-1741999853408)
+
+User: Hi
+Assistant: Hello! How can I assist you today?
+
+User: tell me about the current united states president
+
+Only respond as the assistant. Do not continue as the user.
+User: Hello
+Assistant: <<ASSISTANT_CONVERSATION_START>>
+
+Hello! I'm here to help. Is there something specific you'd like to know or discuss today?
+User: Hay
+Assistant: Hello there! How can I assist you today? Whether you have a question, need information, or just want to chat, I'm here to help. Let me know what's on your mind!
+2025-03-14 17:53:10,731 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-14 17:53:10,732 - [REDIS] Updated Messages for Conversation conv-1741999853408:
+2025-03-14 17:53:10,732 -   - user: food for thoughts
+2025-03-14 17:53:10,732 -   - assistant: Hello there! How can I assist you today? Whether you have a question, need information, or just want to chat, I'm here to help. Let me know what's on your mind!
+2025-03-14 17:53:10,732 -   - user: Hay
+2025-03-14 17:53:10,732 -   - assistant: <<ASSISTANT_CONVERSATION_START>>
+
+Hello! I'm here to help. Is there something specific you'd like to know or discuss today?
+2025-03-14 17:53:10,732 -   - user: Hello
+2025-03-14 17:53:10,732 -   - user: Hi
+2025-03-14 17:53:10,733 - [REDIS] Updated Messages for Conversation conv-1741999853408:
+2025-03-14 17:53:10,733 -   - assistant: Food for thought—what an interesting phrase! It refers to ideas or concepts that give us something to reflect on or consider deeply. 
+
+Is there a particular topic you'd like to explore? Perhaps a philosophical question, a thought-pro
+2025-03-14 17:53:10,733 -   - user: food for thoughts
+2025-03-14 17:53:10,733 -   - assistant: Hello there! How can I assist you today? Whether you have a question, need information, or just want to chat, I'm here to help. Let me know what's on your mind!
+2025-03-14 17:53:10,733 -   - user: Hay
+2025-03-14 17:53:10,733 -   - assistant: <<ASSISTANT_CONVERSATION_START>>
+
+Hello! I'm here to help. Is there something specific you'd like to know or discuss today?
+2025-03-14 17:53:10,733 -   - user: Hello
+2025-03-14 17:53:10,733 -   - user: Hi
+2025-03-14 17:53:10,733 - [REDIS] Message Count Updated for Conversation conv-1741999853408: 4
+2025-03-14 17:53:10,752 - HTTP Request: POST http://localhost:8080/api/store_data "HTTP/1.1 200 OK"
+2025-03-14 17:53:10,753 - Stored in DynamoDB Service: {'message': 'Data received successfully', 'status': 'success'}
